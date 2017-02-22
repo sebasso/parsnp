@@ -13,22 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5d4d38f-1f49-49d0-b333-840e22db5157" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Parsnp.py" afterPath="$PROJECT_DIR$/Parsnp.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/mers_virus/genomes/Jeddah_2014_C7149.fna" afterPath="$PROJECT_DIR$/examples/mers_virus/genomes/Jeddah_2014_C7149.fna" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/mers_virus/genomes/Jeddah_2014_C7569.fna" afterPath="$PROJECT_DIR$/examples/mers_virus/genomes/Jeddah_2014_C7569.fna" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/mers_virus/genomes/Jeddah_2014_C7770.fna" afterPath="$PROJECT_DIR$/examples/mers_virus/genomes/Jeddah_2014_C7770.fna" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/muscle/Makefile" afterPath="$PROJECT_DIR$/muscle/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/muscle/config.status" afterPath="$PROJECT_DIR$/muscle/config.status" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/muscle/libMUSCLE/Makefile" afterPath="$PROJECT_DIR$/muscle/libMUSCLE/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/muscle/libMUSCLE/main.cpp" afterPath="$PROJECT_DIR$/muscle/libMUSCLE/main.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/muscle/libMUSCLE/threadstorage.h" afterPath="$PROJECT_DIR$/muscle/libMUSCLE/threadstorage.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/muscle/libtool" afterPath="$PROJECT_DIR$/muscle/libtool" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/csgmum/csg.c" afterPath="$PROJECT_DIR$/src/csgmum/csg.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/csgmum/csg.h" afterPath="$PROJECT_DIR$/src/csgmum/csg.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/csgmum/mum.c" afterPath="$PROJECT_DIR$/src/csgmum/mum.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/csgmum/mum.h" afterPath="$PROJECT_DIR$/src/csgmum/mum.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/parsnp.cpp" afterPath="$PROJECT_DIR$/src/parsnp.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/parsnp.hh" afterPath="$PROJECT_DIR$/src/parsnp.hh" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -49,11 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="parsnp.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="parsnp.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/parsnp.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="2708" column="4" lean-forward="false" selection-start-line="2708" selection-start-column="4" selection-end-line="2708" selection-end-column="4" />
+            <state relative-caret-position="169">
+              <caret line="2684" column="18" lean-forward="true" selection-start-line="2684" selection-start-column="18" selection-end-line="2684" selection-end-column="18" />
               <folding>
                 <element signature="e#1#19#0" expanded="true" />
               </folding>
@@ -73,14 +58,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/muscle/libMUSCLE/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-270">
-              <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            <state relative-caret-position="165">
+              <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
               <folding>
                 <element signature="e#44#73#0" expanded="true" />
                 <element signature="e#106#186#0" expanded="true" />
+                <element signature="e#316#574#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -476,12 +462,12 @@
       <option name="presentableId" value="Default" />
       <updated>1487687940053</updated>
       <workItem from="1487687945333" duration="16142000" />
-      <workItem from="1487779468620" duration="8638000" />
+      <workItem from="1487779468620" duration="8887000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24780000" />
+    <option name="totallyTimeSpent" value="25029000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -563,6 +549,7 @@
           <folding>
             <element signature="e#44#73#0" expanded="true" />
             <element signature="e#106#186#0" expanded="true" />
+            <element signature="e#316#574#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -758,17 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/muscle/libMUSCLE/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <element signature="e#44#73#0" expanded="true" />
-            <element signature="e#106#186#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="402">
@@ -789,10 +765,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/parsnp.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="2708" column="4" lean-forward="false" selection-start-line="2708" selection-start-column="4" selection-end-line="2708" selection-end-column="4" />
+        <state relative-caret-position="169">
+          <caret line="2684" column="18" lean-forward="true" selection-start-line="2684" selection-start-column="18" selection-end-line="2684" selection-end-column="18" />
           <folding>
             <element signature="e#1#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/muscle/libMUSCLE/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding>
+            <element signature="e#44#73#0" expanded="true" />
+            <element signature="e#106#186#0" expanded="true" />
+            <element signature="e#316#574#0" expanded="true" />
           </folding>
         </state>
       </provider>

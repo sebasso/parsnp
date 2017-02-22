@@ -2706,7 +2706,7 @@ int main ( int argc, char* argv[] )
     myfile << "Writing this to a file.\n";
     myfile.close();
     fprintf(stderr,"I LOVE PARSNP");
-    
+
     string pversion = "v1.0.1"; 
     // {{{ variables
     //task_scheduler_init init;
