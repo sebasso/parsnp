@@ -1,0 +1,4 @@
+/Applications/CMake.app/Contents/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/sebastiansoberg/test/parsnp
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/sebastiansoberg/test/parsnp

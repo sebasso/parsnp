@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="parsnp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/sebastiansoberg/test/parsnp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sebastiansoberg/test/parsnp/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sebastiansoberg/test/parsnp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sebastiansoberg/test/parsnp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sebastiansoberg/test/parsnp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/sebastiansoberg/test/parsnp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sebastiansoberg/test/parsnp/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sebastiansoberg/test/parsnp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sebastiansoberg/test/parsnp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sebastiansoberg/test/parsnp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/sebastiansoberg/test/parsnp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sebastiansoberg/test/parsnp/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sebastiansoberg/test/parsnp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sebastiansoberg/test/parsnp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sebastiansoberg/test/parsnp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parsnp">
+				<Option output="/Users/sebastiansoberg/test/parsnp/parsnp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sebastiansoberg/test/parsnp"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sebastiansoberg/test/parsnp/."/>
+					<Add directory="/Users/sebastiansoberg/test/parsnp/muscle"/>
+					<Add directory="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE"/>
+					<Add directory="/Users/sebastiansoberg/test/parsnp/src"/>
+					<Add directory="/Users/sebastiansoberg/test/parsnp/src/csgmum"/>
+					<Add directory="/Users/sebastiansoberg/test/parsnp/src/ext"/>
+					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.3_1/lib/gcc/4.9/gcc/x86_64-apple-darwin15.6.0/4.9.3/../../../../../../include/c++/4.9.3"/>
+					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.3_1/lib/gcc/4.9/gcc/x86_64-apple-darwin15.6.0/4.9.3/../../../../../../include/c++/4.9.3/x86_64-apple-darwin15.6.0"/>
+					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.3_1/lib/gcc/4.9/gcc/x86_64-apple-darwin15.6.0/4.9.3/../../../../../../include/c++/4.9.3/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.3_1/lib/gcc/4.9/gcc/x86_64-apple-darwin15.6.0/4.9.3/include"/>
+					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.3_1/lib/gcc/4.9/gcc/x86_64-apple-darwin15.6.0/4.9.3/include-fixed"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sebastiansoberg/test/parsnp/Makefile&quot;  VERBOSE=1 parsnp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sebastiansoberg/test/parsnp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sebastiansoberg/test/parsnp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sebastiansoberg/test/parsnp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parsnp/fast">
+				<Option output="/Users/sebastiansoberg/test/parsnp/parsnp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sebastiansoberg/test/parsnp"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sebastiansoberg/test/parsnp/."/>
+					<Add directory="/Users/sebastiansoberg/test/parsnp/muscle"/>
+					<Add directory="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE"/>
+					<Add directory="/Users/sebastiansoberg/test/parsnp/src"/>
+					<Add directory="/Users/sebastiansoberg/test/parsnp/src/csgmum"/>
+					<Add directory="/Users/sebastiansoberg/test/parsnp/src/ext"/>
+					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.3_1/lib/gcc/4.9/gcc/x86_64-apple-darwin15.6.0/4.9.3/../../../../../../include/c++/4.9.3"/>
+					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.3_1/lib/gcc/4.9/gcc/x86_64-apple-darwin15.6.0/4.9.3/../../../../../../include/c++/4.9.3/x86_64-apple-darwin15.6.0"/>
+					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.3_1/lib/gcc/4.9/gcc/x86_64-apple-darwin15.6.0/4.9.3/../../../../../../include/c++/4.9.3/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.3_1/lib/gcc/4.9/gcc/x86_64-apple-darwin15.6.0/4.9.3/include"/>
+					<Add directory="/usr/local/Cellar/gcc@4.9/4.9.3_1/lib/gcc/4.9/gcc/x86_64-apple-darwin15.6.0/4.9.3/include-fixed"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sebastiansoberg/test/parsnp/Makefile&quot;  VERBOSE=1 parsnp/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sebastiansoberg/test/parsnp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sebastiansoberg/test/parsnp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sebastiansoberg/test/parsnp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/aligngivenpath.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/aligngivenpathsw.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/aligntwomsas.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/aligntwoprofs.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/aln.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/alpha.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/alpha.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/anchoredpp.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/anchors.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/bittraceback.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/blosum62.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/blosumla.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/clust.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/clust.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/cluster.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/cluster.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/clustset.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/clustsetdf.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/clustsetmsa.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/clwwt.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/color.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/cons.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/diaglist.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/diaglist.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/diffobjscore.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/diffpaths.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/difftrees.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/difftreese.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/distcalc.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/distcalc.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/distfunc.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/distfunc.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/distpwkimura.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/domuscle.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/dosp.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/dpregionlist.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/dpreglist.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/dpreglist.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/drawtree.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/edgelist.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/edgelist.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/enumopts.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/enumopts.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/enums.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/enumtostr.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/estring.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/estring.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/fasta.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/fasta2.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/fastclust.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/fastdist.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/fastdistjones.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/fastdistkbit.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/fastdistkmer.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/fastdistmafft.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/fastdistnuc.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/fastscorepath2.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/finddiags.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/finddiagsn.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/gapscoredimer.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/glbalign.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/glbalign352.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/glbaligndiag.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/glbalignle.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/glbalignsimple.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/glbalignsp.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/glbalignspn.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/glbalignss.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/glbalndimer.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/globals.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/globalslinux.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/globalsother.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/globalswin32.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/gonnet.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/gonnet.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/gotowt.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/henikoffweight.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/henikoffweightpb.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/html.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/hydro.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/intmath.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/intmath.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/local.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/main.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/makerootmsa.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/makerootmsab.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/maketree.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/mhack.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/mpam200.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/msa.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/msa.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/msa2.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/msadist.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/msadistkimura.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/msf.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/muscle.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/muscle.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/muscleout.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/nucmx.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/nwdasimple.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/nwdasimple2.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/nwdasmall.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/nwrec.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/nwsmall.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/objscore.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/objscore.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/objscore2.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/objscoreda.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/onexception.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/options.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/outweights.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/pam200mafft.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/params.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/params.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/phy.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/phy2.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/phy3.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/phy4.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/phyfromclust.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/phyfromfile.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/physeq.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/phytofile.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/posgap.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/ppscore.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/profdb.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/profile.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/profile.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/profilefrommsa.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/progalign.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/progress.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/progressivealign.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/pwpath.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/pwpath.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/readmx.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/realigndiffs.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/realigndiffse.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/refine.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/refine.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/refinehoriz.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/refinesubfams.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/refinetree.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/refinetreee.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/refinevert.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/refinew.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/savebest.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/scoredist.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/scoregaps.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/scorehistory.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/scorehistory.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/scorepp.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/seq.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/seq.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/seqvect.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/seqvect.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/setblosumweights.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/setgscweights.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/setnewhandler.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/spfast.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/sptest.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/stabilize.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/subfam.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/subfams.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/sw.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/termgaps.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/textfile.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/textfile.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/threadstorage.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/threewaywt.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/timing.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/tomhydro.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/traceback.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/tracebackopt.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/tracebacksw.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/tree.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/treefrommsa.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/types.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/typetostr.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/unixio.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/upgma2.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/usage.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/validateids.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/vtml2.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/muscle/libMUSCLE/writescorefile.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/src/Converter.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/src/Converter.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/src/LCB.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/src/LCB.hh">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/src/LCR.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/src/LCR.hh">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/src/MuscleInterface.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/src/MuscleInterface.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/src/Stack.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/src/TMum.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/src/TMum.hh">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/src/csgmum/csg.c">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/src/csgmum/csg.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/src/csgmum/fastaread.c">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/src/csgmum/fastaread.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/src/csgmum/mum.c">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/src/csgmum/mum.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/src/csgmum/types.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/src/ext/iniFile.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/src/ext/iniFile.h">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/src/parsnp.cpp">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/src/parsnp.hh">
+			<Option target="parsnp"/>
+		</Unit>
+		<Unit filename="/Users/sebastiansoberg/test/parsnp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

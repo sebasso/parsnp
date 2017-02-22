@@ -1,0 +1,3 @@
+/Users/sebastiansoberg/test/parsnp/CMakeFiles/rebuild_cache.dir
+/Users/sebastiansoberg/test/parsnp/CMakeFiles/edit_cache.dir
+/Users/sebastiansoberg/test/parsnp/CMakeFiles/parsnp.dir
